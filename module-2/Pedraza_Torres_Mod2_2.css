@@ -1,0 +1,35 @@
+html {size: 16px;
+}
+body {size: 16px;
+}
+p {font-weight: 400;
+}
+h1 {font-weight: 700;
+}
+h2 {font-weight: 500;
+}
+h2 {font-weight: bold;
+}
+p {line-height: 1.4em;
+}
+h1 {text-transform: uppercase;
+text-align: center;
+}
+h2 {text-align: left;
+ padding-top: 15px;
+}
+address {text-align: center;
+}
+a {font-weight: bold;
+font-size: 1.25em;
+color:#4F3674;
+text-decoration: none;
+}
+a:visited{ color: peru;
+}
+a:hover{ text-decoration: underline;
+background-color: #D6A800;
+}
+.class_sentence{ font-style: italic;
+}
+.class_intro{ text-indent: 2em;}
