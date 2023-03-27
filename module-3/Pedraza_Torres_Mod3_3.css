@@ -1,0 +1,36 @@
+h1{text-align: center;
+}
+.left-container{
+    width: 45%;
+}
+.right-container{
+    width: 45%;
+}
+.last-container{
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+}
+h3{font-weight: 500;
+}
+.organized-list{font-weight: 300;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style-position: inside;
+}
+.unordered-list{font-weight: 300;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+    list-style: upper-roman;
+    list-style-position: inside;
+}
+a {color: aqua;
+}
+a:visited{ color: peru;
+}
+a:hover{ text-decoration: underline;
+background-color: #D6A800;
+}
