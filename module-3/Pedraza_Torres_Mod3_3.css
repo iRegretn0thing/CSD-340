@@ -14,11 +14,13 @@ h1{text-align: center;
 }
 h3{font-weight: 500;
 }
-.organized-list{font-weight: 300;
+.organized-list{
+    font-weight: 300;
     border: 1px solid red;
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
+    text-align: center;
 }
 .unordered-list{font-weight: 300;
     border: 1px dashed red;
@@ -26,11 +28,34 @@ h3{font-weight: 500;
     padding: 10px;
     list-style: upper-roman;
     list-style-position: inside;
+    text-align: center;
 }
-a {color: aqua;
+a {
+    color: aqua;
 }
-a:visited{ color: peru;
+a:visited{
+    color: peru;
 }
-a:hover{ text-decoration: underline;
+a:hover{ 
+text-decoration: underline;
 background-color: #D6A800;
+}
+.left-container, .right-container {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-left: 30px;
+  }
+  .button-container {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button-container button {
+    margin: 5px;
+}
+
+.button-container {
+    padding-top: 10px;
 }
